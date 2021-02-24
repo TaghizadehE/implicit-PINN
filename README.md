@@ -7,6 +7,13 @@ data-driven machine learning for explicitly closing nonlinear problems during up
 </div>
 
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
