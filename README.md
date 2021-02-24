@@ -8,7 +8,7 @@ data-driven machine learning for explicitly closing nonlinear problems during up
 
 
 ```diff
-- text in red
+- ## Implicit-physics-informed neural networks for nonlinear closure: The case of transport in tissues
 + text in green
 ! text in orange
 # text in gray
