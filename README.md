@@ -1,10 +1,9 @@
 ## Implicit-physics-informed neural networks for nonlinear closure: The case of transport in tissues
 
-data-driven machine learning for explicitly closing nonlinear problems during upscaling.
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+data-driven machine learning for explicitly closing nonlinear problems during upscaling
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
+
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
