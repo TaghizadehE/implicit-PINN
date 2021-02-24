@@ -3,7 +3,7 @@
 data-driven machine learning for explicitly closing nonlinear problems during upscaling
 
 <div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
+  This text is purple
 </div>
 
 
