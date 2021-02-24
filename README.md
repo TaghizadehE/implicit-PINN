@@ -18,8 +18,5 @@ data-driven machine learning for explicitly closing nonlinear problems during up
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 
-<div class="text-red mb-2">
-  text-red on white
-</div>
-
+--color-text-danger
 
