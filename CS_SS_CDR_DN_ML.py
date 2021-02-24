@@ -331,3 +331,70 @@ c_2D_e_interpolate = InterpolatedUnivariateSpline(c_2D_e[:,0]*1e-6, c_2D_e[:,1])
 error_U_e   = np.divide(abs(U-c_2D_e_interpolate(xspan)), U)*100
 error_ave_e = sum(error_U_e)/len(error_U_e)
 print('error of exact:', error_ave_e)
+
+
+fs1  = 18
+
+if simul_case == 'brain':
+    label1 = ''
+    label2 = ''
+    xrange = np.arange(0, 20.01, step=2.5)
+    xleftletter = -5.5
+    letter1 = 'B'
+    letter2 = 'C'
+    figsavename = 'figs/brain_c_eta.pdf'
+    figsavename_smooth = 'figs/brain_c_eta_smooth.pdf'
+    
+elif simul_case == 'liver':
+    label1 = 'Macroscale + ML'
+    label2 = 'Microscale Average'
+    xrange = np.arange(0, 700.01, step=100)
+    xleftletter = -5.5*700/20
+    letter1 = 'E'
+    letter2 = 'F'
+    figsavename = 'figs/liver_c_eta.pdf'
+    figsavename_smooth = 'figs/liver_c_eta_smooth.pdf'
+
+
+fig1, ax = plt.subplots(figsize=(7,6*1.0), nrows=2, ncols=1, dpi=200)
+plt.subplots_adjust(hspace=0.2)
+
+
+
+# img = mpimg.imread('../figs/liver_Pe_52_c.png')
+# ax[0].imshow(img, aspect='auto')
+# ax[0].axis('off')
+# ax[0].tick_params(labelbottom=False, labelleft=False) 
+
+ax[0].plot(xspan*1e6, U,                       'r', label=label1, linewidth=2)
+# ax[0].plot(c_2D_e[:,0]*1,     c_2D_e[:,1 ],    'b', label=label2, linewidth=2)
+ax[0].plot(c_2D_mb[cut:,0]*1, c_2D_mb[cut:,1], 'g', label=label2, linewidth=2)
+
+# plt.title('R ML')
+# ax[0].set_xlabel('L ($\mu m$)', fontsize=fs1)
+ax[0].tick_params(labelbottom=False, labelsize=fs1-6)    
+ax[0].set_ylabel(r'$\langle c_\beta \rangle^\beta ~(\frac{mol}{m^3}$)', fontsize=fs1)
+ax[0].set_xticks(xrange)
+# ax[0].tick_params(direction='out', length=6, width=2, colors='r', grid_color='r', grid_alpha=0.5)
+#ax1.set_ylabel(self.labely, fontsize=fs1)
+# plt.xticks(np.arange(0, xL, step=xL/4))
+# plt.yticks(np.arange(0, 22.1, step=2))
+ax[0].set_ylim([0,2.1])
+ax[0].grid(True)
+ax[0].legend(fontsize=fs1-4)
+ax[0].text(xleftletter, 0.90, letter1, fontsize=fs1+4)
+
+
+ax[1].plot(xspan*1e6, eta_predicted, 'k', linewidth=2)
+ax[1].set_xlabel('$L ~(\mu m$)', fontsize=fs1)
+ax[1].set_ylabel('Machine learned $\eta$', fontsize=fs1)
+ax[1].set_ylim([0,1])
+ax[1].set_xticks(xrange)
+ax[1].tick_params(labelsize=fs1-6) 
+plt.grid(True)
+ax[1].text(xleftletter, 0.45, letter2, fontsize=fs1+4)
+
+
+fig1.tight_layout()
+# plt.savefig(figsavename, dpi=300)
+# plt.savefig(figsavename_smooth, dpi=300)
