@@ -1,5 +1,10 @@
-# Implicit-physics-informed neural networks for nonlinear closure: The case of transport in tissues
+## Implicit-physics-informed neural networks for nonlinear closure: The case of transport in tissues
+
+data-driven machine learning for explicitly closing nonlinear problems during upscaling.
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-- <img src="https://latex.codecogs.com/gif.latex?s=\text { sensor reading }  " /> 
-- <img src="https://latex.codecogs.com/gif.latex?P(s | O_t )=\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t " />
+
