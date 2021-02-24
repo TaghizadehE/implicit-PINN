@@ -1,10 +1,6 @@
-## Implicit-physics-informed neural networks for nonlinear closure: The case of transport in tissues
+## [Implicit-physics-informed neural networks for nonlinear closure: The case of transport in tissues](https://github.com/TaghizadehE/implicit-PINN)
 
 data-driven machine learning for explicitly closing nonlinear problems during upscaling
-
-<div class="text-purple">
-  This text is purple
-</div>
 
 
 ```diff
