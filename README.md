@@ -10,9 +10,11 @@ For more information, please refer to the following.
 - Ehsan Taghizadeh, Helen M. Byrne, Brian D. Wood. ["Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues."](https://github.com/TaghizadehE/implicit-PINN) arXiv preprint arXiv:2104.01476 (2021).
 
 **Citation**
+```
 @article{taghizadeh2021explicit,
          title={Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues}, 
          author={Ehsan Taghizadeh and Helen M. Byrne and Brian D. Wood},
          journal={arXiv preprint arXiv:2104.01476},
          year={2021},
 }
+```
