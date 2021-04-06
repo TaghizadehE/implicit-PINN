@@ -7,3 +7,6 @@ We use data-driven machine learning for explicitly closing nonlinear problems du
 Network training and solutions to the macroscale transport equations were computed for two different tissues.  
 The two tissue types (brain and liver) exhibit markedly different geometry and spatial scale (cell size and sample size).  The upscaled solutions for the average concentration are compared with numerical solutions derived from the microscale concentration fields by \emph{a posteriori} averaging.
 There are two outcomes of this work of particular note: 1) we find that that the trained network exhibits good generalizability, and it is able to predict the effectiveness factor with high fidelity for realistically-structured tissues despite the significantly different scale and geometry of the two example tissue types; and 2) the approach results in an upscaled PDE with an effectiveness factor that is predicted (implicitly) via the trained neural network. This latter result emphasizes our purposeful connection between conventional averaging methods with the use of machine learning for closure; this contrasts with some machine learning methods for upscaling where the exact form of the macroscale equation remains unknown.
+
+For more information, please refer to the following.
+
