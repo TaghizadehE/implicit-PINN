@@ -18,3 +18,7 @@ For more information, please refer to the following.
          year={2021},
 }
 ```
+
+## **Instruction**
+- Run _run.py_ for training
+- Run _CS_SS_CDR_DN_ML.py_ to merge leraned correction factor with central space steady state convection diffusion Michaelis–Menten–Monod kinetics rection left dirichlet right neumann finite difference
