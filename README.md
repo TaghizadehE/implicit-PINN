@@ -7,7 +7,7 @@ There are three outcomes of this work of particular note: 1) we find that that t
 
 For more information, please refer to the following.
 
-- Ehsan Taghizadeh, Helen M. Byrne, Brian D. Wood. "{Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues." arXiv preprint arXiv:2104.01476 (2021).
+- Ehsan Taghizadeh, Helen M. Byrne, Brian D. Wood. ["Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues."](https://github.com/TaghizadehE/implicit-PINN) arXiv preprint arXiv:2104.01476 (2021).
 
-** Citation
+** Citation **
 
