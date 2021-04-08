@@ -21,4 +21,4 @@ For more information, please refer to the following.
 
 ## **Instruction**
 1. Run _run.py_ for training.
-2. Run _CS_SS_CDR_DN_ML.py_ to merge learned correction factor with central space steady state convection diffusion Michaelis–Menten–Monod kinetics rection left dirichlet right neumann finite difference.
+2. Run _CS_SS_CDR_DN_ML.py_ to merge learned correction factor with central space steady state convection diffusion Michaelis–Menten–Monod kinetics reaction left dirichlet right neumann finite difference.
