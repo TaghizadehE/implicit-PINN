@@ -7,10 +7,19 @@ There are three outcomes of this work of particular note: 1) we find that that t
 
 For more information, please refer to the following.
 
-- Ehsan Taghizadeh, Helen M. Byrne, Brian D. Wood. ["Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues."](https://arxiv.org/abs/2104.01476) arXiv preprint arXiv:2104.01476 (2021).
+- Ehsan Taghizadeh, Helen M. Byrne, Brian D. Wood. ["Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues."](https://arxiv.org/abs/2104.01476) Journal of Computational Physics, 110781 (2021).
 
 ## **Citation**
 ```
+@article{taghizadeh2021explicit,
+  title={Explicit physics-informed neural networks for nonlinear closure: The case of transport in tissues},
+  author={Taghizadeh, Ehsan and Byrne, Helen and Wood, Brian D},
+  journal={Journal of Computational Physics},
+  pages={110781},
+  year={2021},
+  publisher={Elsevier}
+}
+
 @article{taghizadeh2021explicit,
          title={Explicit physics-informed neural networks for non-linear upscaling closure: the case of transport in tissues}, 
          author={Ehsan Taghizadeh and Helen M. Byrne and Brian D. Wood},
